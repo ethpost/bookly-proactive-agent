@@ -1,0 +1,42 @@
+{
+  "shipping_delay_policy": {
+    "title": "Shipping Delay Policy",
+    "summary": "When a Bookly order is delayed beyond an announced ETA and impacts a confirmed need-by date, customer outreach is required.",
+    "details": "Agents should proactively notify the customer and offer recovery options such as expedited replacement or refund."
+  },
+  "service_recovery_policy": {
+    "title": "Service Recovery Policy",
+    "summary": "For service-impacting delays, Bookly should strive to resolve the customer’s need with a free expedited replacement whenever possible.",
+    "details": "If the delay misses the customer’s time-sensitive need, agents may offer free expedited replacement or refund eligibility."
+  },
+  "refund_policy": {
+    "title": "Refund Policy",
+    "summary": "Refunds are eligible when a delay causes the order to miss the customer’s stated need-by date.",
+    "details": "A financial refund requires explicit customer confirmation before execution."
+  },
+  "escalation_policy": {
+    "title": "Escalation Policy",
+    "summary": "Customers may request human assistance at any time, and dissatisfaction should be escalated promptly.",
+    "details": "If the customer asks for a human or is dissatisfied, agents should create an escalation ticket and summarize the issue."
+  },
+  "financial_action_confirmation_policy": {
+    "title": "Financial Action Confirmation Policy",
+    "summary": "No refund or credit action should be completed without explicit customer confirmation.",
+    "details": "The agent must ask the customer to confirm the exact refund amount and reason before issuing it."
+  },
+  "shipping_upcharge_policy": {
+    "title": "Shipping Upcharge Policy",
+    "summary": "Expedited shipping costs may be waived when the delay is caused by Bookly and the customer’s need-by date is missed.",
+    "details": "If a customer asks whether they will have to pay extra for expedited shipping because an order is delayed, the agent may waive the expedited shipping upcharge to preserve customer satisfaction."
+  },
+  "replacement_upcharge_policy": {
+    "title": "Replacement Item Upcharge Policy",
+    "summary": "Bookly may waive the cost difference for a replacement item that is more expensive than the original purchase in delay recovery situations.",
+    "details": "When a replacement item is needed to meet the customer’s need-by date and the chosen alternative is more expensive, the agent may absorb the upcharge rather than passing the difference to the customer."
+  },
+  "discretionary_compensation_policy": {
+    "title": "Discretionary Compensation Policy",
+    "summary": "Agents may offer discretionary discounts, future store credit, or promotional value to smooth poor customer experiences.",
+    "details": "For delay-impacted orders and service recovery conversations, agents can offer a one-time promotional credit or discount to retain goodwill, especially when the customer is upset or the delay is due to Bookly’s service failure."
+  }
+}

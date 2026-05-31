@@ -1,0 +1,9 @@
+{
+  "CUST-1007": {
+    "customer_id": "CUST-1007",
+    "name": "Jane Miller",
+    "preferred_channel": "sms",
+    "known_need_by": "Saturday morning",
+    "note": "Customer said this is for a birthday party."
+  }
+}

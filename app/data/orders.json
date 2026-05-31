@@ -1,0 +1,13 @@
+{
+  "BK-1042": {
+    "order_id": "BK-1042",
+    "customer_id": "CUST-1007",
+    "item": "Children’s birthday book set",
+    "order_value": 34.98,
+    "original_eta": "Friday",
+    "updated_eta": "Tuesday",
+    "status": "Carrier delay",
+    "notes": "Current package cannot arrive before Tuesday.",
+    "preferred_channel": "SMS"
+  }
+}

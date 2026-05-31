@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bookly Proactive Agent</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div>
+        <h1>Bookly Support</h1>
+        <div class="subheader">SMS · Today</div>
+      </div>
+      <button id="resetButton">Reset Demo</button>
+    </header>
+
+    <div class="main-grid">
+      <section class="chat-panel">
+        <div class="phone-frame">
+          <div class="phone-notch"></div>
+          <div class="phone-status-bar">
+            <div class="status-left">
+              <span class="signal-bars"></span>
+              <span class="carrier">Bookly</span>
+            </div>
+            <div class="status-center">9:41</div>
+            <div class="status-right">
+              <span class="wifi-icon"></span>
+              <span class="battery-icon"></span>
+            </div>
+          </div>
+
+          <div class="phone-header">
+            <div class="contact-avatar"></div>
+            <div class="contact-summary">
+              <div class="contact-name">Bookly Support</div>
+              <div class="contact-status">SMS · Today</div>
+            </div>
+            <div class="header-actions">
+              <span class="video-icon"></span>
+            </div>
+          </div>
+
+          <div class="phone-body">
+            <div id="chatFeed" class="chat-feed"></div>
+            <div id="typingIndicator" class="typing-indicator hidden">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <form id="messageForm" class="message-form">
+              <input id="messageInput" type="text" placeholder="Type your message..." autocomplete="off" />
+              <button type="submit">Send</button>
+            </form>
+          </div>
+
+          <div class="phone-home-indicator"></div>
+        </div>
+      </section>
+
+      <aside class="trace-panel">
+        <div class="trace-header">
+          <h2>Agent Activity</h2>
+          <p>Trace console for proactive decisions, tool calls, and customer routing.</p>
+        </div>
+        <div id="traceFeed" class="trace-feed"></div>
+      </aside>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
