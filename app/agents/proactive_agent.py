@@ -71,7 +71,7 @@ def create_proactive_message(state: ConversationState) -> tuple[str, list[dict]]
             "role": "system",
             "content": (
                 "You are a customer support assistant for Bookly. Draft a short outbound SMS-style update "
-                "for Jane Miller about a delayed birthday gift order. Use the event details, keep the tone empathetic, "
+                "for Jane Miller about a delayed birthday gift order. Use the event details, keep the tone empathetic, include details about the original order"
                 "and do not mention internal systems or tools."
             ),
         },
